@@ -1,0 +1,99 @@
+.menu-left > button, .menu-right > button  {
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 190px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.menu-left > button:focus, .menu-right > button:focus {
+    outline: none;
+}
+
+#menu, #pin {
+    /* border: 1px solid black; */
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 90vw;
+    height: 500px;
+}
+
+#menu > h1, #menu > p, #pin > h1, #pin > p {
+    text-align: center;
+}
+
+.menu-left, .menu-right {
+    /* border: 1px solid black; */
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-right {
+    float: right;
+}
+
+#pin,
+#withdraw,
+#deposit,
+#balance,
+#exit,
+#changePin {
+    display: none;
+}
+
+.keyboard, .row {
+    /* border: 1px solid black; */
+}
+
+.row > div {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.row > div:hover {
+    background: lightgrey;
+}
+
+.row {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.row > div:not(.number) {
+    width: 80px;
+    margin-left: 20px;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.no-border:hover {
+    background: none !important;
+}
+
+.screen {
+    margin: 30px auto;
+    width: 192px;
+}
+
+.screen > input {
+    width: inherit;
+}

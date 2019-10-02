@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="menu">
+            <h1>Laba diena</h1>
+            <p>Pasirinkite veiksmus</p>
+            <div class="menu-left">
+                <button onclick="withdraw()">Atsiimti pinigu</button>
+                <button onclick="deposit()">Ideti pinigu</button>
+                <button onclick="balance()">Ziureti balansa</button>
+            </div>
+            <div class="menu-right">
+                <button onclick="changePIN()">Keisti pin</button>
+                <button onclick="exit()">Iseiti</button>
+            </div>
+        </div>
+        <div id="pin">
+            <h1>Iveskite PIN</h1>
+            <p id="message">uzdenkite ranka</p>
+            <div class="screen">
+                <input type="password" id="pinInput">
+            </div>
+            <div class="keyboard">
+                <div class="row">
+                    <div onclick="one()" class="number">1</div>
+                    <div onclick="two()" class="number">2</div>
+                    <div onclick="three()" class="number">3</div>
+                    <div onclick="cancel()">Cancel</div>
+                </div>
+                <div class="row">
+                    <div onclick="four()" class="number">4</div>
+                    <div onclick="five()" class="number">5</div>
+                    <div onclick="six()" class="number">6</div>      
+                    <div onclick="clearChar()">Clear</div>    
+                </div>
+                <div class="row">
+                    <div onclick="seven()" class="number">7</div>
+                    <div onclick="eight()" class="number">8</div>
+                    <div onclick="nine()" class="number">9</div>
+                    <div onclick="enter()">Enter</div>    
+                </div>
+                <div class="row">
+                    <div onclick="" class="number no-border">&nbsp;</div>
+                    <div onclick="zero()" class="number">0</div>
+                    <div onclick="" class="number no-border">&nbsp;</div>
+                    <div onclick="" class="no-border">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div id="withdraw">
+
+        </div>
+        <div id="deposit">
+
+        </div>
+        <div id="balance">
+
+        </div>
+        <div id="exit">
+
+        </div>
+        <div id="changePin">
+
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
